@@ -13,6 +13,8 @@ After seeing the $10 million Wormhole bounty that was awarded to satya0x (https:
 
 If there's one thing I could change/improve about the current way we write smart contracts, it's how proxy deployments work. I understand the notion of swapping the implementation while data stays unchanged, but the manner in which it happens is quite unsatisfying, since contracts deployed to Ethereum are meant to be immutable (interesting dichotomy). If done poorly for complicated projects, it feels like a dangling attack vector.
 
+UPDATE: actually, upgradeable smart contracts are done pretty nicely, I was wrong. 
+
 These are just some of thoughts about what I've learned so far and I hope I have much more to add on in the future.
 
 Ibrahim
